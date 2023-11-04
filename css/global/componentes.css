@@ -1,14 +1,39 @@
-.button {
+.button-small {
     font-family: 'Roboto', sans-serif;
-    border: none;
     padding: 8px 13px 8px 13px;
     border-radius: 2px;
     background: var(--colour-main-blue-800);
     color: var(--white);
+    font-weight: 500;
     transition: 0.50s;
 }
 
-.button:hover {
+.button-small:hover {
     background: var(--colour-logo-blue-900);
     transition: 0.2s;
+}
+
+.button-medium {
+    font-family: 'Roboto', sans-serif;
+    padding: 11px 40px 11px 40px;
+    border-radius: 2px;
+    background: var(--colour-main-blue-800);
+    color: var(--white);
+    font-weight: 500;
+    transition: 0.50s;
+}
+
+.button-medium:hover {
+    background: var(--colour-logo-blue-900);
+    transition: 0.2s;
+}
+
+.button-2 {
+    font-family: 'Roboto', sans-serif;
+    padding: 9px 53px 9px 53px;
+    border-radius: 2px;
+    background:none;
+    font-weight: 500;
+    color: var(--colour-main-blue-800);
+    border: 2px solid var(--colour-main-blue-800);
 }

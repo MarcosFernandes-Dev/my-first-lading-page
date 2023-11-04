@@ -1,8 +1,33 @@
-@import url('./reset.css');
-@import url('./cores.css');
-@import url(./global/header.css);
-@import url('./global/componentes.css');
+.main-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 1049px;
+    margin: 0px 0px 0px 140px;
+}
 
-body {
-    background: var(--white-body);
+.text-main h1 {
+    color: var(--colour-main-blue-900, #091133);
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 66px;
+    margin: 242px 0px 20px 0px;
+}
+
+.text-main p {
+    color: #505F98;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px 0px 69px 0px;
+}
+
+.text-main, .button-main, .button-medium {
+    margin-right: 20px;
+}
+
+.main-wrapper, .main-img, img {
+    margin-top: 90px;
 }
