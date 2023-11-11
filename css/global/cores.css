@@ -1,7 +1,13 @@
 :root {
-    --colour-main-blue-800: #111B47; 
-    --colour-logo-blue-900: #37447E; 
+    --colour-main-blue-900: #091133;
+    --colour-main-blue-800: #111B47;
+    --colour-main-blue-700: #222F65;
+    --colour-logo-blue-900: #37447E;
+    --colour-main-blue-500: #505F98;
+    --colour-main-blue-400: #6F7CB2;
     --colour-main-blue-300: #929ECC;
+    --colour-main-grey-600: #5D6970;
+    --colour-main-grey-400: #939EA4;
     --white-body: #FBFBFD;
     --white: #FFFFFF;
 }
