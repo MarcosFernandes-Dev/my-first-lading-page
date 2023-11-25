@@ -1,19 +1,18 @@
 .main-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 1049px;
-    margin: 0px 0px 0px 140px;
+    margin: 0px 0px 0px 165px;
 }
 
-.text-main h1 {
+.text-main, h1 {
     color: var(--colour-main-blue-900);
-    margin: 242px 0px 20px 0px;
+    margin: 242px 0px 0px 0px;
     line-height: 66px;
 }
 
 .text-main p {
     color: var(--colour-main-blue-500);
-    margin: 0px 0px 69px 0px;
+    margin: 20px 0px 69px 0px;
     line-height: 30px
 }
 
@@ -23,4 +22,50 @@
 
 .main-wrapper, .main-img, img {
     margin-top: 90px;
+}
+
+.section-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-section {
+    margin: 0px 0px 0px 165px;
+}
+
+.text-section, .medium-36 {
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+
+.text-section, .regular-16 {
+    color: var(--colour-main-blue-400);
+    line-height: 30px;
+}
+
+.blocos-section {
+    display: flex;
+    margin-top: 50px;
+}
+
+.blocos-section, .medium-16 {
+    color: var(--colour-main-blue-900);
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+.blocos-section, .regular-12 {
+    color: var(--colour-main-grey-600);
+}
+
+.img-1{
+    margin-bottom: 14px;
+}
+
+.bloco-2 {
+    margin-left: 30px;
+}
+
+.section-img {
+    margin: 109px 165px 108px 30px;
 }
