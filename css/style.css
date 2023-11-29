@@ -69,3 +69,28 @@
 .section-img {
     margin: 109px 165px 108px 30px;
 }
+
+.article-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-article {
+    margin: 122px 0px 130px 190px;
+}
+
+.text-article {
+    margin: 35px 170px 0px 155px;
+}
+
+.text-article, p {
+    line-height: 10px;
+}
+
+.text-article-2 {
+    margin: 0px 120px 0px 155px;
+}
+
+.button-article {
+    margin-top: 40px;
+}
