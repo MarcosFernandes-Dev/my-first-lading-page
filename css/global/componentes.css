@@ -73,6 +73,12 @@
     font-weight: 400;
 }
 
+.regular-14, p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .regular-12, p {
     font-family: Roboto;
     font-size: 12px;

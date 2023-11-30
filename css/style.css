@@ -94,3 +94,40 @@
 .button-article {
     margin-top: 40px;
 }
+
+.aside-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.text-aside {
+    text-align: center;
+    margin-top: 280px;
+    margin-bottom: 120px;
+}
+
+.text-aside, span {
+    color: var(--colour-main-blue-700);
+}
+
+.aside-1 {
+    margin-bottom: 60px;
+}
+
+.aside-1-2 {
+    margin-top: 18px;
+}
+
+.aside-2 {
+    margin-bottom: 60px;
+}
+
+.aside-3, p {
+    color: var(--colour-main-grey-600);
+}
+
+.aside-3, .button-aside {
+    margin-top: 30px;
+    margin-left: 10px;
+}
