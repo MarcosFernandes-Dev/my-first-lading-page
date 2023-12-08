@@ -131,3 +131,50 @@
     margin-top: 30px;
     margin-left: 10px;
 }
+
+footer {
+    background: #E7ECFF;
+}
+
+.conteiner-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.conteiner-up, span {
+    margin-left: 165px;
+    color: #939EA4;
+}
+
+.button-footer {
+    margin-right: 165px;
+}
+
+hr {
+    background-color: #CDD1D4;
+    height: 1px;
+    border: none;
+    width: 1110px;
+    margin: 20px auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.conteiner-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 165px 0px 165px;
+    padding-bottom: 40px;
+}
+
+.conteiner-down ul li a {
+    margin-right: 30px;
+    color: #929ECC;
+}
+
+.navigation-2 {
+    display: flex;
+}
